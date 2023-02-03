@@ -23,19 +23,32 @@
 
 
 ** In this project three apps are core, product, and user.
+
 ** User app is for the user, product app is for the products and core is common for both.
+
 ** I stored all the models in the core app.
+
 ** For user I create custom user, I mean instead of a username I used an email. And for user id, I used uuid.
+
 ** Fore product app there is 3 models (ProductCategory, Product, ProductImage). In product app, I added SlugField for getting the product details.
+
 ** For documentation I used drf-yasg and authentication simplejwt.
+
 For product images, we can upload multiple images as a list.
 
 
 ## By doing this project I came to know -
+
 -How to work with django rest framework
+
 -How to work with API documentation
+
 -How to work with third parties app
+
 -How API Authentication works
+
 -How API views and generics views are works
+
 -How to work with multiple image upload
+
 -How to write test
